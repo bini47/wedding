@@ -1,0 +1,49 @@
+/****************************************************************************************
+ Pheromone - Responsive multi-concept theme
+ To use this theme you must have a license purchased at Themeforest (themeforest.com)
+ Copyright 1995-2016 ForBetterWeb.com
+ ***************************************************************************************/
+
+body {
+    font: 200 16px/1.8 Kanit, sans-serif;
+    letter-spacing: 0;
+}
+a {
+    color: #000;
+}
+.intro-body:before {
+    background: rgba(0,0,0,.8);
+}
+.fa-li {
+    padding-top: 5px;
+}
+ul, ol {
+    margin-bottom: 3em;
+}
+p {
+    margin: 0 0 40px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 35px;
+    letter-spacing: 0.12em;
+    line-height: 1.6;
+}
+h3 {
+    padding: 35px 0 0;
+    overflow: hidden;
+    clear: both;
+    display: block;
+}
+h4 {
+    margin: 0 0 20px;
+}
+pre {
+    padding: 20px;
+    margin: 0 0 30px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    background-color: #555;
+    border: 0;
+    border-radius: 0;
+}
