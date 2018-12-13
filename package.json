@@ -1,0 +1,25 @@
+{
+  "name": "classy",
+  "version": "1.0.0",
+  "description": "wedding and event planning web-app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bini47/wedding.git"
+  },
+  "author": "biniyam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bini47/wedding/issues"
+  },
+  "homepage": "https://github.com/bini47/wedding#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "method-override": "^3.0.0"
+  }
+}

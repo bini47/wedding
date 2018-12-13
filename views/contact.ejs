@@ -1,0 +1,102 @@
+<%include ../views/partials/header%>
+<!-- Header -->
+<header data-background="img/header/11.jpg" class="intro introhalf">
+  <!-- Intro Header -->
+  <div class="intro-body">
+    <h1 class="classic">Contact us</h1>
+    <h4>SAY HELLO</h4>
+  </div>
+</header>
+<!-- Contact Section -->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h2>contact us</h2>
+        <p>
+          Feel free to contact us to provide some feedback on our work, give us
+          suggestions on our work and website, or to just say hello! Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit. Nulla convallis pulvinar.
+        </p>
+        <hr />
+        <h5>
+          <i class="fa fa-map-marker fa-fw fa-lg"></i> 1234 Some Avenue, Addis
+          Ababa, B 564
+        </h5>
+        <h5><i class="fa fa-envelope fa-fw fa-lg"></i> info@classy.com</h5>
+        <h5><i class="fa fa-phone fa-fw fa-lg"></i> +251912345678</h5>
+      </div>
+      <div class="col-md-5 col-md-offset-2">
+        <h2>Say hello</h2>
+        <!--
+          Contact Form - Enter your email address on line 17 of the mail/contact_me.php file to make this form work. For more information on how to do this please visit the Docs!
+        -->
+        <form id="contactForm" name="sentMessage" novalidate="">
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label for="name" class="sr-only control-label">You Name</label>
+              <input
+                id="name"
+                type="text"
+                placeholder="You Name"
+                required=""
+                data-validation-required-message="Please enter name"
+                class="form-control input-lg"
+              /><span class="help-block text-danger"></span>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label for="email" class="sr-only control-label">You Email</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="You Email"
+                required=""
+                data-validation-required-message="Please enter email"
+                class="form-control input-lg"
+              /><span class="help-block text-danger"></span>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label for="phone" class="sr-only control-label">You Phone</label>
+              <input
+                id="phone"
+                type="tel"
+                placeholder="You Phone"
+                required=""
+                data-validation-required-message="Please enter phone number"
+                class="form-control input-lg"
+              /><span class="help-block text-danger"></span>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="form-group floating-label-form-group controls">
+              <label for="message" class="sr-only control-label">Message</label>
+              <textarea
+                id="message"
+                rows="2"
+                placeholder="Message"
+                required=""
+                data-validation-required-message="Please enter a message."
+                aria-invalid="false"
+                class="form-control input-lg"
+              ></textarea
+              ><span class="help-block text-danger"></span>
+            </div>
+          </div>
+          <div id="success"></div>
+          <button type="submit" class="btn btn-dark">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Map Section -->
+<div id="map"></div>
+<!-- Footer Section -->
+<%include ../views/partials/footer%>
+
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="js/map.js"></script>
