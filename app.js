@@ -47,6 +47,4 @@ app.get("/vendor-bronze", function(req, res) {
 app.get("/vendor-gold", function(req, res) {
   res.render("vendor-gold");
 });
-app.listen("3000", function() {
-  console.log("classy wedding server running!");
-});
+app.listen(process.env.PORT, process.env.IP);
